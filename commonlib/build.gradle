@@ -27,6 +27,13 @@ android {
 
 }
 
+allprojects {
+    repositories {
+        google()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.6.0'
